@@ -53,6 +53,7 @@
 ├── svm_model.pkl                       # 训练好的SVM模型（5.5MB）
 ├── svm_training.log                    # 模型训练日志（45KB）
 ├── 实验报告.pdf                         # 完整实验报告PDF版（4MB）
+├── requirements.txt                    # Python依赖包列表
 ├── README.md                           # 项目说明文档
 └── .gitignore                          # Git忽略配置
 ```
@@ -63,8 +64,15 @@
 - Python 3.8 或更高版本
 
 ### 依赖库
+
+**推荐方式：使用 requirements.txt 安装**
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn python-pptx
+pip install -r requirements.txt
+```
+
+**或手动安装：**
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
 已测试环境：

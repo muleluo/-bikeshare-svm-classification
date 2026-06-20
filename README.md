@@ -15,20 +15,35 @@
 
 ```
 机器学习实验/
-├── 实验课数据/                    # 原始数据文件夹
-├── 1_data_preprocessing.py        # 数据预处理脚本
-├── 2_svm_training.py             # SVM模型训练脚本
-├── 3_visualization.py            # 数据可视化脚本
-├── 4_generate_report.py          # 报告生成脚本
-├── run_all.py                    # 主运行脚本（一键执行所有步骤）
-├── README.md                     # 本文件
-├── processed_data.csv            # 处理后的数据（运行后生成）
-├── features.csv                  # 特征矩阵（运行后生成）
-├── labels.csv                    # 标签（运行后生成）
-├── svm_model.pkl                 # 训练好的模型（运行后生成）
-├── model_results.json            # 模型结果（运行后生成）
-├── figures/                      # 可视化图表文件夹（运行后生成）
-└── 实验报告.md                    # 完整实验报告（运行后生成）
+├── 实验课数据/                           # 原始数据文件夹（被 .gitignore 忽略，约300MB）
+│   ├── 202501-capitalbikeshare-tripdata.csv  # 2025年1月数据
+│   └── 202501-202512-capitalbikeshare-tripdata.zip  # 其他月份数据压缩包
+├── figures/                             # 可视化图表文件夹
+│   ├── 01_sampling_statistics.png       # 数据抽样统计图
+│   ├── 02_temporal_analysis.png         # 时间维度分析图
+│   ├── 03_spatial_analysis.png          # 空间维度分析图
+│   ├── 05_feature_comparison.png        # 特征对比图
+│   ├── 06_confusion_matrix.png          # 混淆矩阵
+│   ├── 07_roc_curve.png                 # ROC曲线
+│   └── 08_model_performance.png         # 模型性能对比
+├── flowcharts/                          # 实验流程图文件夹
+│   ├── 01_overall_flow.png              # 整体流程图
+│   ├── 02_data_cleaning.png             # 数据清洗流程图
+│   ├── 03_svm_algorithm.png             # SVM算法流程图
+│   ├── 04_model_training.png            # 模型训练流程图
+│   └── 05_cross_validation.png          # 交叉验证流程图
+├── 1_data_preprocessing.py              # 数据预处理脚本
+├── 2_svm_training.py                   # SVM模型训练脚本
+├── 3_visualization.py                  # 数据可视化脚本
+├── processed_data.csv                  # 处理后的数据（60,000条，15MB）
+├── features.csv                        # 特征矩阵（17列特征，7.3MB）
+├── labels.csv                          # 标签（member=1, casual=0，117KB）
+├── sampling_statistics.csv             # 抽样统计信息（1KB）
+├── svm_model.pkl                       # 训练好的SVM模型（5.5MB）
+├── svm_training.log                    # 模型训练日志（45KB）
+├── 实验报告.pdf                         # 完整实验报告PDF版（4MB）
+├── README.md                           # 项目说明文档
+└── .gitignore                          # Git忽略配置
 ```
 
 ## 环境要求

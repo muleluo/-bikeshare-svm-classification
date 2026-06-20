@@ -11,10 +11,8 @@ venv/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# 数据文件（太大，不推送到GitHub）
+# 原始数据文件（太大，不推送到GitHub）
 实验课数据/
-*.csv
-*.pkl
 
 # 临时文件
 *.tmp
@@ -27,8 +25,5 @@ venv/
 实验报告_原始.docx
 实验报告_temp.html
 *_temp.*
-
-# 其他
-*.log
 .vscode/
 .idea/

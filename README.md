@@ -15,9 +15,20 @@
 
 ```
 机器学习实验/
-├── 实验课数据/                           # 原始数据文件夹（被 .gitignore 忽略，约300MB）
-│   ├── 202501-capitalbikeshare-tripdata.csv  # 2025年1月数据
-│   └── 202501-202512-capitalbikeshare-tripdata.zip  # 其他月份数据压缩包
+├── 实验课数据/                           # 原始数据文件夹（约298MB）
+│   ├── 202501-capitalbikeshare-tripdata.csv  # 2025年1月数据（50MB，已解压）
+│   ├── 202501-capitalbikeshare-tripdata.zip  # 2025年1月数据压缩包（11MB）
+│   ├── 202502-capitalbikeshare-tripdata.zip  # 2025年2月数据（13MB）
+│   ├── 202503-capitalbikeshare-tripdata.zip  # 2025年3月数据（24MB）
+│   ├── 202504-capitalbikeshare-tripdata.zip  # 2025年4月数据（25MB）
+│   ├── 202505-capitalbikeshare-tripdata.zip  # 2025年5月数据（26MB）
+│   ├── 202506-capitalbikeshare-tripdata.zip  # 2025年6月数据（26MB）
+│   ├── 202507-capitalbikeshare-tripdata.zip  # 2025年7月数据（26MB）
+│   ├── 202508-capitalbikeshare-tripdata.zip  # 2025年8月数据（23MB）
+│   ├── 202509-capitalbikeshare-tripdata.zip  # 2025年9月数据（24MB）
+│   ├── 202510-capitalbikeshare-tripdata.zip  # 2025年10月数据（23MB）
+│   ├── 202511-capitalbikeshare-tripdata.zip  # 2025年11月数据（16MB）
+│   └── 202512-capitalbikeshare-tripdata.zip  # 2025年12月数据（11MB）
 ├── figures/                             # 可视化图表文件夹
 │   ├── 01_sampling_statistics.png       # 数据抽样统计图
 │   ├── 02_temporal_analysis.png         # 时间维度分析图

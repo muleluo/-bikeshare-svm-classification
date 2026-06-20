@@ -11,9 +11,6 @@ venv/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# 原始数据文件（太大，不推送到GitHub）
-实验课数据/
-
 # 临时文件
 *.tmp
 *.bak
